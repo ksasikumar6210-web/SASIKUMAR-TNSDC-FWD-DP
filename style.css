@@ -1,0 +1,89 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    text-align: center;
+
+}
+
+/* Multi-color navigation bar */
+
+nav {
+
+    display: flex;
+
+    justify-content: center;
+
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+    padding: 15px;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+.highlight {
+
+    margin-top: 100px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    display: inline-block;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+h1 {
+
+    color: #333;
+
+}
+
+.contact {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    color: #555;
+
+}
+
+footer {
+
+    margin-top: 50px;
+
+    background: #222;
+
+    color: white;
+
+    padding: 15px;
+
+}
